@@ -8,17 +8,18 @@ import androidx.compose.ui.unit.sp
 import net.kodein.cup.Slide
 
 
-private val sections = listOf(
+internal val sections = listOf(
     "Languages",
     "Platforms",
     "Architecture",
+    "UI Libraries/Frameworks",
     "Server Databases",
     "Client Databases",
     "Http Server Solutions",
     "Http Client Solutions",
-    "Image",
-    "Caching",
-    "Build tool",
+    "Image Loaders",
+    "Caching Key/Value Pairs",
+    "Build tools",
     "Testing patterns & frameworks",
     "Miscellaneous"
 )
@@ -29,7 +30,7 @@ internal val introduction by Slide(stepCount = sections.size) { step ->
         Row(modifier = Modifier.fillMaxWidth()) {
             val a = pair[0]
             val b = pair.getOrNull(1)
-            val count = index*2
+            val count = index * 2
             Text("${count + 1}. $a", modifier = Modifier.fillMaxWidth().weight(1f))
             if (b != null) Text("${count + 2}. $b", modifier = Modifier.fillMaxWidth().weight(1f))
         }
