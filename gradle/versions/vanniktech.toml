@@ -1,0 +1,7 @@
+[versions]
+publish = "0.28.0" # "0.25.2" # https://vanniktech.github.io/gradle-maven-publish-plugin/central/
+
+[plugins]
+root-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "publish" }
+
+maven-publish = { id = "com.vanniktech.maven.publish" }

@@ -1,0 +1,27 @@
+[versions]
+atomicfu = "0.23.1" # https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental/org/jetbrains/kotlinx/atomicfu/
+coroutines = "1.8.0" # "1.7.3"
+serialization = "1.6.2"
+datetime = "0.5.0"
+toml = "0.3.6"
+yaml = "0.12.0"
+cli = "0.3.5"
+bson = "0.5.0"
+
+[libraries]
+cli = { module = "org.jetbrains.kotlinx:kotlinx-cli", version.ref = "cli" }
+
+atomicfu = { module = "org.jetbrains.kotlinx:atomicfu", version.ref = "atomicfu" }
+
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "coroutines" }
+
+serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "serialization" }
+serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+serialization-bson = { module = "com.github.jershell:kbson", version.ref = "bson" }
+serialization-yaml = { module = "net.mamoe.yamlkt:yamlkt", version.ref = "yaml" }
+serialization-toml = { module = "net.peanuuutz.tomlkt:tomlkt", version.ref = "toml" }
+
+datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "datetime" }

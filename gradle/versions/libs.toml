@@ -1,0 +1,158 @@
+[versions]
+asoft = "3.0.6"
+
+[libraries]
+kommander-core = { module = "tz.co.asoft:kommander-core", version.ref = "asoft" }
+kommander-coroutines = { module = "tz.co.asoft:kommander-coroutines", version.ref = "asoft" }
+
+kollections-interoperable = { module = "tz.co.asoft:kollections-primitive", version.ref = "asoft" } # Remove this after migration to kollections-primitive is complete
+kollections-primitive = { module = "tz.co.asoft:kollections-primitive", version.ref = "asoft" }
+kollections-atomic = { module = "tz.co.asoft:kollections-atomic", version.ref = "asoft" }
+
+kevlar-api = { module = "tz.co.asoft:kevlar-api", version.ref = "asoft" }
+kevlar-core = { module = "tz.co.asoft:kevlar-core", version.ref = "asoft" }
+
+kotlinx-exports = { module = "tz.co.asoft:kotlinx-interoperable-exports", version.ref = "asoft" }
+
+kase-possible = { module = "tz.co.asoft:kase-possible", version.ref = "asoft" }
+kase-optional = { module = "tz.co.asoft:kase-optional", version.ref = "asoft" }
+kase-core = { module = "tz.co.asoft:kase-core", version.ref = "asoft" }
+
+kase-response-core = { module = "tz.co.asoft:kase-response-core", version.ref = "asoft" }
+kase-response-ktor-client = { module = "tz.co.asoft:kase-response-ktor-client", version.ref = "asoft" }
+kase-response-ktor-server = { module = "tz.co.asoft:kase-response-ktor-server", version.ref = "asoft" }
+
+koncurrent-executors-core = { module = "tz.co.asoft:koncurrent-executors-core", version.ref = "asoft" }
+koncurrent-executors-coroutines = { module = "tz.co.asoft:koncurrent-executors-coroutines", version.ref = "asoft" }
+koncurrent-executors-mock = { module = "tz.co.asoft:koncurrent-executors-mock", version.ref = "asoft" }
+koncurrent-later-core = { module = "tz.co.asoft:koncurrent-later-core", version.ref = "asoft" }
+koncurrent-later-test = { module = "tz.co.asoft:koncurrent-later-test", version.ref = "asoft" }
+koncurrent-later-coroutines = { module = "tz.co.asoft:koncurrent-later-coroutines", version.ref = "asoft" }
+koncurrent-awaited-core = { module = "tz.co.asoft:koncurrent-awaited-core", version.ref = "asoft" }
+koncurrent-awaited-test = { module = "tz.co.asoft:koncurrent-awaited-test", version.ref = "asoft" }
+koncurrent-awaited-coroutines = { module = "tz.co.asoft:koncurrent-awaited-coroutines", version.ref = "asoft" }
+
+neat-validation = { module = "tz.co.asoft:neat-validation", version.ref = "asoft" }
+neat-formatting = { module = "tz.co.asoft:neat-formatting", version.ref = "asoft" }
+
+keep-api = { module = "tz.co.asoft:keep-api", version.ref = "asoft" }
+keep-file = { module = "tz.co.asoft:keep-file", version.ref = "asoft" }
+keep-browser = { module = "tz.co.asoft:keep-browser", version.ref = "asoft" }
+keep-mock = { module = "tz.co.asoft:keep-mock", version.ref = "asoft" }
+keep-react-native = { module = "tz.co.asoft:keep-react-native", version.ref = "asoft" }
+
+lexi-api = { module = "tz.co.asoft:lexi-api", version.ref = "asoft" }
+lexi-file = { module = "tz.co.asoft:lexi-file", version.ref = "asoft" }
+lexi-config = { module = "tz.co.asoft:lexi-config", version.ref = "asoft" }
+lexi-console = { module = "tz.co.asoft:lexi-console", version.ref = "asoft" }
+
+kash-currency = { module = "tz.co.asoft:kash-currency", version.ref = "asoft" }
+kash-cents = { module = "tz.co.asoft:kash-cents", version.ref = "asoft" }
+kash-money = { module = "tz.co.asoft:kash-money", version.ref = "asoft" }
+kash-fields = { module = "tz.co.asoft:kash-fields", version.ref = "asoft" }
+
+geo-languages = { module = "tz.co.asoft:geo-languages", version.ref = "asoft" }
+geo-countries = { module = "tz.co.asoft:geo-countries", version.ref = "asoft" }
+geo-addresses = { module = "tz.co.asoft:geo-addresses", version.ref = "asoft" }
+geo-coordinates = { module = "tz.co.asoft:geo-coordinates", version.ref = "asoft" }
+geo-fields = { module = "tz.co.asoft:geo-fields", version.ref = "asoft" }
+
+cinematic-live-core = { module = "tz.co.asoft:cinematic-live-core", version.ref = "asoft" }
+cinematic-live-compose = { module = "tz.co.asoft:cinematic-live-compose", version.ref = "asoft" }
+cinematic-live-kollections = { module = "tz.co.asoft:cinematic-live-kollections", version.ref = "asoft" }
+cinematic-live-react = { module = "tz.co.asoft:cinematic-live-react", version.ref = "asoft" }
+cinematic-live-test = { module = "tz.co.asoft:cinematic-live-test", version.ref = "asoft" }
+cinematic-scene-core = { module = "tz.co.asoft:cinematic-scene-core", version.ref = "asoft" }
+
+kronecker-core = { module = "tz.co.asoft:kronecker-core", version.ref = "asoft" }
+
+bee-core = { module = "tz.co.asoft:bee-core", version.ref = "asoft" }
+
+kiota-url = { module = "tz.co.asoft:kiota-url", version.ref = "asoft" }
+kiota-sse = { module = "tz.co.asoft:kiota-sse", version.ref = "asoft" }
+kiota-numeral = { module = "tz.co.asoft:kiota-numeral", version.ref = "asoft" }
+
+ribix-charts = { module = "tz.co.asoft:ribix-charts", version.ref = "asoft" }
+ribix-changes = { module = "tz.co.asoft:ribix-changes", version.ref = "asoft" }
+
+raven-api = { module = "tz.co.asoft:raven-api", version.ref = "asoft" }
+raven-console = { module = "tz.co.asoft:raven-console", version.ref = "asoft" }
+raven-markup-core = { module = "tz.co.asoft:raven-markup-core", version.ref = "asoft" }
+raven-markup-html = { module = "tz.co.asoft:raven-markup-html", version.ref = "asoft" }
+raven-bus = { module = "tz.co.asoft:raven-bus", version.ref = "asoft" }
+raven-mock = { module = "tz.co.asoft:raven-mock", version.ref = "asoft" }
+raven-smtp = { module = "tz.co.asoft:raven-smtp", version.ref = "asoft" }
+raven-config = { module = "tz.co.asoft:raven-config", version.ref = "asoft" }
+
+symphony-paginator = { module = "tz.co.asoft:symphony-paginator", version.ref = "asoft" }
+symphony-selector = { module = "tz.co.asoft:symphony-selector", version.ref = "asoft" }
+symphony-actions = { module = "tz.co.asoft:symphony-actions", version.ref = "asoft" }
+symphony-table = { module = "tz.co.asoft:symphony-table", version.ref = "asoft" }
+symphony-list = { module = "tz.co.asoft:symphony-list", version.ref = "asoft" }
+symphony-collections = { module = "tz.co.asoft:symphony-collections", version.ref = "asoft" }
+symphony-input-core = { module = "tz.co.asoft:symphony-input-core", version.ref = "asoft" }
+symphony-input-sheet = { module = "tz.co.asoft:symphony-input-sheet", version.ref = "asoft" }
+symphony-input-text = { module = "tz.co.asoft:symphony-input-text", version.ref = "asoft" }
+symphony-input-number = { module = "tz.co.asoft:symphony-input-number", version.ref = "asoft" }
+symphony-input-choice = { module = "tz.co.asoft:symphony-input-choice", version.ref = "asoft" }
+symphony-input-list = { module = "tz.co.asoft:symphony-input-list", version.ref = "asoft" }
+symphony-input-dialog = { module = "tz.co.asoft:symphony-input-dialog", version.ref = "asoft" }
+
+epsilon-api-core = { module = "tz.co.asoft:epsilon-api-core", version.ref = "asoft" }
+epsilon-api-fake = { module = "tz.co.asoft:epsilon-api-fake", version.ref = "asoft" }
+epsilon-api-file = { module = "tz.co.asoft:epsilon-api-file", version.ref = "asoft" }
+epsilon-api-network = { module = "tz.co.asoft:epsilon-api-network", version.ref = "asoft" }
+epsilon-file-fields = { module = "tz.co.asoft:epsilon-file-fields", version.ref = "asoft" }
+epsilon-image-core = { module = "tz.co.asoft:epsilon-image-core", version.ref = "asoft" }
+epsilon-image-web = { module = "tz.co.asoft:epsilon-image-web", version.ref = "asoft" }
+epsilon-image-compose-core = { module = "tz.co.asoft:epsilon-image-compose-core", version.ref = "asoft" }
+epsilon-image-compose-html = { module = "tz.co.asoft:epsilon-image-compose-html", version.ref = "asoft" }
+epsilon-image-react-core = { module = "tz.co.asoft:epsilon-image-react-core", version.ref = "asoft" }
+epsilon-image-react-dom = { module = "tz.co.asoft:epsilon-image-react-dom", version.ref = "asoft" }
+
+krono-api = { module = "tz.co.asoft:krono-api", version.ref = "asoft" }
+krono-kotlinx = { module = "tz.co.asoft:krono-kotlinx", version.ref = "asoft" }
+krono-fields = { module = "tz.co.asoft:krono-fields", version.ref = "asoft" }
+
+hormone-core = { module = "tz.co.asoft:hormone-core", version.ref = "asoft" }
+
+kommerce-core = { module = "tz.co.asoft:kommerce-core", version.ref = "asoft" }
+
+klip-api = { module = "tz.co.asoft:klip-api", version.ref = "asoft" }
+klip-browser = { module = "tz.co.asoft:klip-browser", version.ref = "asoft" }
+klip-local = { module = "tz.co.asoft:klip-local", version.ref = "asoft" }
+
+yeti-core = { module = "tz.co.asoft:yeti-core", version.ref = "asoft" }
+
+bringer-api = { module = "tz.co.asoft:bringer-api", version.ref = "asoft" }
+bringer-mock = { module = "tz.co.asoft:bringer-mock", version.ref = "asoft" }
+
+krest-core = { module = "tz.co.asoft:krest-core", version.ref = "asoft" }
+
+sanity-core = { module = "tz.co.asoft:sanity-core", version.ref = "asoft" }
+sanity-flix = { module = "tz.co.asoft:sanity-flix", version.ref = "asoft" }
+sanity-local = { module = "tz.co.asoft:sanity-local", version.ref = "asoft" }
+sanity-remote = { module = "tz.co.asoft:sanity-remote", version.ref = "asoft" }
+
+koder-core = { module = "tz.co.asoft:koder-core", version.ref = "asoft" }
+
+snitch-api = { module = "tz.co.asoft:snitch-api", version.ref = "asoft" }
+snitch-fake = { module = "tz.co.asoft:snitch-fake", version.ref = "asoft" }
+
+captain-url = { module = "tz.co.asoft:captain-url", version.ref = "asoft" }
+captain-navigator-api = { module = "tz.co.asoft:captain-navigator-api", version.ref = "asoft" }
+captain-navigator-basic = { module = "tz.co.asoft:captain-navigator-basic", version.ref = "asoft" }
+captain-navigator-browser = { module = "tz.co.asoft:captain-navigator-browser", version.ref = "asoft" }
+captain-router-core = { module = "tz.co.asoft:captain-router-core", version.ref = "asoft" }
+captain-router-react-core = { module = "tz.co.asoft:captain-router-react-core", version.ref = "asoft" }
+captain-router-react-dom = { module = "tz.co.asoft:captain-router-react-dom", version.ref = "asoft" }
+captain-router-compose-core = { module = "tz.co.asoft:captain-router-compose-core", version.ref = "asoft" }
+captain-router-compose-html = { module = "tz.co.asoft:captain-router-compose-html", version.ref = "asoft" }
+
+cabinet-api-core = { module = "tz.co.asoft:cabinet-api-core", version.ref = "asoft" }
+cabinet-client-scenes = { module = "tz.co.asoft:cabinet-client-scenes", version.ref = "asoft" }
+
+[plugins]
+library = { id = "tz.co.asoft.library", version.ref = "asoft" }
+applikation = { id = "tz.co.asoft.applikation", version.ref = "asoft" }
+deploy = { id = "tz.co.asoft.deploy", version.ref = "asoft" }
